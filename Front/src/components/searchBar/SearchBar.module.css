@@ -1,0 +1,13 @@
+
+.botonSearch{
+    height: 30px;
+    font-size: 10px;
+    color:rgb(15, 15, 15);
+    background-image: url('../../Image/buttonblue.png') ;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0px 0px 5px white
+    }
+}

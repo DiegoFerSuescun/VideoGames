@@ -1,0 +1,32 @@
+.contendor{
+    background-image: url('../../Image/detailFond.jpg');
+    width: 100%;
+    height: 300vh;
+    position: absolute;
+}
+
+
+.contenedorDetail{
+  
+    width: 90vw;
+    height: 170vh;
+    margin-left: 5%;
+    padding-left: 2%;
+    border-radius: 1em;
+    background-color: rgba(13, 12, 12, 0.6);
+    font-weight: bold;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+    background: linear-gradient(rgba(238, 231, 231, 0.60), rgba(150, 150, 150, 0.25));
+}
+
+.imagecontents{
+    width: 40vw;
+    margin-left: 0.5em;
+    margin-top: 13%;
+    border-radius: 7%;
+    float:right;
+}

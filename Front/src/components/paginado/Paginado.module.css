@@ -1,0 +1,41 @@
+.containerPaginado{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: rgba(173, 157, 157, 0.712);
+    color: rgb(7, 7, 7);
+    width:auto;
+    height: 35px;
+    padding-top: 30px;
+    
+}
+
+.button{
+    height: 30px;
+    font-size: 10px;
+    color: rgb(15, 15, 15);
+    background-image: url('../../Image/buttonblue.png') ;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0px 0px 5px white
+    }
+}
+.button[disabled]{
+    cursor: no-drop;
+}
+.input{
+    font-size: 10px;
+    height: 25px;
+    width: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contador{
+   
+    height: 20px;
+    font-size: 10px;
+}

@@ -1,0 +1,42 @@
+.container{
+    
+    border: 3px solid rgba(90, 1, 112, 0.712);
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-top: 0px;
+    
+    box-shadow: 0 0 15px black;
+    
+    
+    &:hover{
+        box-shadow: 0 0 60px rgba(37, 240, 255, 0.658);
+    }
+}
+
+
+
+
+.image{
+    width: 260px;
+    height: 200px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.name{
+    font-size: 27px;
+    color: azure;
+}
+
+.genres{
+    padding-bottom: 0%;
+    font-size: 22px;
+    color: azure;
+}
+.rating{
+    font-size: 20px; 
+    color: azure
+}

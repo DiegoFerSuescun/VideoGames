@@ -1,0 +1,11 @@
+export const GET_GAMES = 'GET_GAMES';
+export const GET_GAME_NAME = 'GET_GAME_NAME';
+export const POST_GAME = 'POST_GAME';
+export const GAME_DETAIL = 'GAME_DETAIL';
+export const CLEAR = 'CLEAR'
+export const GET_GENRES= 'GET_GENRES';
+export const ORDEN = 'ORDEN';
+export const RATING = 'RATING'
+export const CREATION = 'CREATION';
+export const GENRES = 'GENRES';
+export const ERROR = 'ERROR';

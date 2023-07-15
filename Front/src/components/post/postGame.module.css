@@ -1,0 +1,139 @@
+.errors{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(252, 252, 252);
+    font: message-box;
+    margin-left: 30%;
+    
+}
+
+.contents{
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: rgba(233, 46, 46, 0.616);
+}
+
+.legend{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 15%;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    margin-top: 5px;
+    margin-left: 20%;
+    gap: 7px;
+    position: relative;
+}
+.labelName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.inputName{
+    width: 70%;
+}
+
+.labelImage{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 9px;
+}
+
+.inputimage{
+    width: 70%;
+}
+
+.containerDescription{
+    display: flex;
+    flex-direction:column
+}
+
+.labelDescrip{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+.inputDesc{
+    margin-left: 18%;
+    width: 40vw;
+    resize: none;
+    font-size:x-large;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(17, 237, 253),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+    color: rgb(0, 0, 0);
+}
+
+.labelPlat{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 40%;
+}
+
+.containPlat{
+    width: 60%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: gray  ;
+}
+
+.checkPlat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: medium;
+    font-weight:lighter;
+}
+
+.labelRele{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 9px;
+}
+
+.inputRele{
+    width: 70%;
+}
+
+
+.labelRating{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 9px;
+}
+
+.inputRating{
+    width: 70%;
+}
+
+.conytainButtons{
+    margin-left: 40%;
+    gap: 3%;
+}
+.buttonSubmit{
+  margin-top: 3%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  position: relative;
+  text-shadow: 0px 2px 0px rgba(240, 232, 232, 0.952);
+  font-size: medium;
+  background-color: rgb(12, 11, 11, 0.3);
+  color: white;
+}
+
+.buttonSubmit:hover, .buttonSubmit:focus{
+    box-shadow: 15px 15px 30px rgb(98, 58, 230), -15px -15px 30px rgb(205, 52, 197);
+    cursor: pointer;
+    color: rgb(74, 77, 251);
+    font-size: large;
+    font-weight: 900;
+   }
+
+
